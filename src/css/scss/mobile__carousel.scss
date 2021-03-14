@@ -1,0 +1,23 @@
+/* - - - - - M O B I L E - C A R O U S E L - - - - - */
+.main-content__carousel{
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content__carousel-indicator{
+  width: 7px;
+  height: 7px;
+  background-color: #adadad;
+  border-radius: 50%
+}
+.main-content__carousel-indicator:not(:first-child){
+  margin-left: 0.5625rem;
+}
+.carousel__active{
+  background-color: #000;
+}
+.main-content__carousel-indicator:hover{
+  cursor: pointer;
+}

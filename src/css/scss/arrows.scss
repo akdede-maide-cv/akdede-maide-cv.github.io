@@ -1,0 +1,32 @@
+.arrow {
+
+}
+
+.main-content__arrows li {
+  z-index: 1;
+  position: relative;
+}
+
+.main-content__arrows li:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 22%;
+  height: 50%;
+  width: 50%;
+  background: rgba(102, 255, 155, 0.35);
+  border-radius: 50%;
+  transition-duration: 0.25s;
+}
+
+.main-content__arrows li:first-of-type:after {
+  right: 12.5%;
+}
+
+.main-content__arrows li:last-of-type:after {
+  left: 12.5%;
+}
+
+.main-content__arrows li:hover:after {
+  background: #66ff96;
+}

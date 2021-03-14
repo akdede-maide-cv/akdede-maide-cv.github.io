@@ -1,0 +1,41 @@
+/* - - - - - M O B I L E - M A I N - C O N T E N T - L E F T - - - - - */
+
+.main-content{
+  padding: 0 0 2.4%;
+}
+.main-content__image-arrow{
+  max-width: 650px;
+  padding: 0 2.4%;
+  margin: 0 auto;
+  position: relative;
+}
+.main-content__img{
+  padding: 0;
+  margin: 0 auto;
+  height: auto;
+  max-width: 650px;
+  width: 100%;
+}
+.main-content__arrows{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  bottom: 2rem;
+}
+.main-content__arrow-left{
+  padding: 18px 0 18px 18px;
+}
+.main-content__arrow-right{
+  padding: 18px 18px 18px 0;
+}
+.arrow:hover{
+  cursor: pointer;
+}
+.main-content__left{
+  background: linear-gradient(#b1b1b1 94.5%, #FFF 4.5%);
+}
+.main-content__image-arrow{
+  position: relative;
+  top: 2rem;
+}

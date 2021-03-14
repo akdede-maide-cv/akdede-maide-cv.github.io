@@ -1,0 +1,113 @@
+/* COMMENT - PROJECTS SECTION */
+.projects_div{
+  margin: 5rem 0;
+}
+.project{
+  margin: 0 auto;
+  max-width: 775px;
+  padding-bottom: 2rem;
+  padding-left: 2.4%;
+  padding-right: 2.4%;
+  border-bottom: 1px solid #b1b1b1;
+}
+.projects-header{
+  text-align: center;
+}
+.projects-header__star{
+  margin: .75rem 0 1rem;
+}
+.projects-header__title{
+  font-family: "Druk Wide Heavy", "Gill Sans", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  margin-bottom: .5em;
+}
+.projects-header__num{
+  font-family: "Druk Text Medium Italic","Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0 0 2em;
+}
+.projects-header__button{
+  font-family: sofia-pro-regular;
+  font-family: sofia-pro-regular, sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0.12rem 1.8rem;
+  line-height: 1em;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3px;
+  align-items: center;
+  transition: border-color .25s cubic-bezier(.4,0,1,1),background-color .25s cubic-bezier(.4,0,1,1),color .25s cubic-bezier(.4,0,1,1);
+  outline: none;
+  border: 1px solid #000;
+  font-weight: 500;
+  height: 2.75em;
+  background: #000;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.projects-header__button:hover{
+  text-decoration: underline;
+}
+.project__title{
+  font-family: "Druk Text Medium Italic","Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 26px;
+}
+.project__stars{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.project__content{
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+.project__prof{
+  font-family: sofia-pro-regular, sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.project__prof span{
+  font-size: 0.85rem;
+  color: #b1b1b1;
+  margin-left: 0.2rem;
+  font-weight: lighter;
+}
+.project__course{
+  margin-bottom: 2rem;
+}
+.line{
+  border-top: 1px solid #b1b1b1;
+  width: 2.5rem;
+}
+.projet-thumbs__title{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #b1b1b1;
+}
+.projet-thumbs__thumbs, .projet-thumbs__thumb{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.projet-thumbs__thumb{
+  margin-right: 1rem;
+}
+
+.projet-thumbs__thumb:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.projet-thumbs__p{
+  margin-left: 0.5rem;
+}
+.projet-thumbs__p_after{
+  background-color: #66ff96;
+}

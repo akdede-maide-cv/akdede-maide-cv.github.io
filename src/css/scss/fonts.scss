@@ -1,0 +1,53 @@
+/* - - - - - F O N T - F A C E  - - - - -  */
+@font-face {
+  font-family: "Druk Wide";
+  src: url("./../../../fonts/drunk-wide.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Druk Text Medium Italic";
+  src: url("./../../../fonts/DrukText-MediumItalic-Cy-Web.woff2") format("woff2"), url("./../../../fonts/DrukText-MediumItalic-Cy-Web.woff") format("woff");
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Druk Wide Heavy";
+  src: url("./../../../fonts/DrukTextWide-Heavy-Cy-Web.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Druk Wide Heavy Italic";
+  src: url("./../../../fonts/DrukTextWide-HeavyItalic-Cy-Web.woff2") format("woff2"),
+  url("./../../../fonts/DrukTextWide-HeavyItalic-Cy-Web.woff") format("woff");
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: sofia-pro;
+  src: url("https://use.typekit.net/af/5855b2/00000000000000003b9b1a98/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/5855b2/00000000000000003b9b1a98/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/5855b2/00000000000000003b9b1a98/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 0;
+  font-display: auto;
+}
+@font-face {
+  font-family: sofia-pro-italic;
+  src: url("https://use.typekit.net/af/98f96f/00000000000000003b9b1a97/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/98f96f/00000000000000003b9b1a97/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/98f96f/00000000000000003b9b1a97/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: auto;
+}
+@font-face {
+  font-family: sofia-pro-regular;
+  src: url("../../../fonts/Sofia-Pro-Regular-Az.otf") format("opentype");
+  font-weight: 500;
+}

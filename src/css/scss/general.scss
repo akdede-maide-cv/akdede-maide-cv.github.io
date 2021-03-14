@@ -1,0 +1,37 @@
+/* - - - - - G E N E R A L - - - - - */
+body{
+  min-width: 320px;
+  max-width: 1680px;
+  margin: 0 auto;
+  font-family: sofia-pro-regular,"Gill Sans",Helvetica,Arial,sans-serif;
+}
+.accordion-container p{
+  line-height: 1.5;
+}
+.header{
+  background: #fff;
+  padding-bottom: 16px;
+}
+.hidden-for-accessibility {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.hidden{
+  display: none;
+}
+.main-content__thumbnails {
+  display: none;
+}
+@media screen and (max-width: 1279px) {
+  .button-search-desktop, .nav__desktop{
+    display: none;
+  }
+}
+*:focus, a:focus, h1:focus, h2:focus, button:focus, li:focus, div>a:focus, .projects-header__button:focus, .button-search:focus, .main-content__contact:focus, .main-content__contact-heart:focus, .menu-active__close:focus{
+  border: blue;
+  border-radius: 10px;
+}
+.nav__ul{
+  margin-top: 0.8rem;
+}

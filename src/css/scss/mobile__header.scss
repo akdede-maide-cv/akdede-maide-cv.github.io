@@ -1,0 +1,41 @@
+/* - - - - - M O B I L E - H E A D E R - - - - - */
+.nav__ul{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 0.9375rem;
+    align-items: center;
+}
+.nav__left a{
+    margin-right: 0.625rem;
+}
+.nav__left{
+    display: flex;
+}
+.nav__right a {
+    margin-left: 0.625rem;
+}
+.nav__right{
+    display: flex;
+}
+.button-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.9375rem;
+    margin: 0 0.9375rem;
+    width: calc(100% - 60px);
+    height: 40px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: border .4s;
+    line-height: 1;
+}
+.button-search__text{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    font-family: sofia-pro,"Gill Sans",Helvetica,Arial,sans-serif;
+    color: rgba(0,0,0,.5);
+    margin: 0;
+}
