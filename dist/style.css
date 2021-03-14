@@ -762,8 +762,10 @@ b {
 }
 
 .project__title {
-  font-family: "Druk Text Medium Italic", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
-  font-size: 26px;
+    font-family: "Druk Text Medium Italic", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .project__stars {
