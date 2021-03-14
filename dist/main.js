@@ -22,6 +22,7 @@
       this.oldLink = this.link.textContent;
       this.newLink = 'Cacher';
       this.hiddenP = document.querySelector('.p_blur_hidden');
+      this.header = document.querySelectorAll('.accordion-title_h2');
       this.link.addEventListener('click', function () {
         if (_this.link.classList.contains('blur-active')) {
           _this.link.textContent = _this.newLink;
@@ -52,6 +53,7 @@
             _this.plus[i].classList.add('active__close');
 
             _this.plus[i].alt = _this.newAlt;
+            _this.header[i].style = 'text-decoration: underline';
           } else {
             _this.accordionHeaders[i].classList.add('close');
 
@@ -60,6 +62,7 @@
             _this.plus[i].classList.remove('active__close');
 
             _this.plus[i].alt = _this.oldAlt;
+            _this.header[i].style = 'text-decoration: none';
           }
         });
       };
@@ -263,6 +266,12 @@
       this.searchFormMobile = document.querySelector('.button-search-mobile');
       this.open.addEventListener('click', function () {
         _this.searchForm.classList.add('active-form');
+
+        document.addEventListener('click', function (e) {
+          if (e.clientY > _this.searchForm.clientHeight) {
+            _this.searchForm.classList.remove('active-form');
+          }
+        });
       });
       this.close.addEventListener('click', function () {
         _this.searchForm.classList.remove('active-form');
@@ -388,6 +397,7 @@
 
       this.thumbs = document.querySelectorAll('.projet-thumbs__thumb');
       this.counter = document.querySelectorAll('.thumb_counter');
+      this.p = document.querySelectorAll('.projet-thumbs__p');
 
       var _loop = function _loop(i) {
         _this.thumbs[i].addEventListener('click', function () {
@@ -395,10 +405,14 @@
             _this.counter[i].innerHTML = '1';
 
             _this.thumbs[i].classList.add('bounce');
+
+            _this.p[i].classList.add('projet-thumbs__p_after');
           } else if (_this.counter[i].innerHTML !== '0') {
             _this.counter[i].innerHTML = '0';
 
             _this.thumbs[i].classList.remove('bounce');
+
+            _this.p[i].classList.remove('projet-thumbs__p_after');
           }
         });
       };
