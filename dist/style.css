@@ -1032,8 +1032,9 @@ button.input__search {
   .main-content__thumbnail {
     display: block;
     cursor: pointer;
-    width: 60px;
-    flex-basis: 10%;
+    width: 75px;
+    height: auto;
+    //flex-basis: 10%;
     box-shadow: 0 0 0 0 #000, 0 0 #f3f2f4;
     transition: box-shadow 0.3s;
     margin: 0 1em 1.5em;
