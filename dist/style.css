@@ -137,6 +137,30 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 499px) {
+  div.slider__container {
+    max-width: 163px;
+  }
+
+  .slider__container img {
+    width: 163px;
+    height: auto;
+  }
+
+  div.slider:after {
+    max-height: 185px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1279px) {
+  div.slider__container {
+    max-width: 200px;
+  }
+
+  .slider__container img {
+    width: 200px;
+    height: 240px;
+  }
+}
 *:focus, a:focus, h1:focus, h2:focus, button:focus, li:focus, div > a:focus, .projects-header__button:focus, .button-search:focus, .main-content__contact:focus, .main-content__contact-heart:focus, .menu-active__close:focus {
   border: blue;
   border-radius: 10px;
@@ -1034,7 +1058,6 @@ button.input__search {
     cursor: pointer;
     width: calc(72px + 2%);
     height: calc(86.4px + 2%);
-    //flex-basis: 10%;
     box-shadow: 0 0 0 0 #000, 0 0 #f3f2f4;
     transition: box-shadow 0.3s;
     margin: 0 1em 1.5em;
